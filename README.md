@@ -4,7 +4,7 @@ repositório referente a tudo relacionado aos diagramas de caso de uso do projet
 
 UML: usuários ~ tela inicial (X)                               
 UML: usuários ~ tela 'logado' (X)     
-UML: usuários ~ tela 'cadastrar-se' ( )          
+UML: usuários ~ tela 'cadastrar-se' (X)          
 UML: usuários ~ tela 'esqueci a senha' (X)      
 UML: usuários ~ tela 'fale conosco' (X)
 
