@@ -1,0 +1,24 @@
+@startuml
+left to right direction
+skinparam actorstyle awesome
+skinparam packageStyle rectangle
+
+package usuários {
+actor aluno
+actor "gerente de estágio" as ge
+actor "professor orientador" as po
+}
+
+
+rectangle "tela logado"{
+ aluno -up-> (informações do estágio)
+ aluno -up-> (solicitar orientador)
+ (informações de estágios) .> (gerenciar estágios) : include
+ (excluir estagiário/orientador) .> (gerenciar estágios) : include
+ ge -up-> (gerenciar estágios)
+
+ ge -up-> (relatórios recebidos)
+ po -> (enviar relatório)
+ po -up-> (lista de estagiários)
+}
+@enduml
