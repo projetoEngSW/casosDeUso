@@ -6,4 +6,5 @@ UML: usuários ~ tela inicial (X)
 UML: usuários ~ tela 'logado' (X)                          
 UML: usuários ~ tela 'esqueci a senha' ( )                           
 
+link para checar códigos e gerar imagem dos casos de uso: http://www.plantuml.com/plantuml/uml
 
