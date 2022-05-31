@@ -13,9 +13,12 @@ actor "recrutador (fora do domínio)" as re
 
 rectangle "tela esqueci a senha"{
  usuários -right-> (insira seu email)
- usuários -down-> (retornar)
+ usuários -down-> (retornar) 
  (insira seu cpf) .> (insira seu email) : extends
+ (retornar) -- (tela inicial)
  
- 
+
+}
+rectangle "tela inicial"{
 }
 @enduml
