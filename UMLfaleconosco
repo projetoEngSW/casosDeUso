@@ -1,0 +1,25 @@
+@startuml
+left to right direction
+skinparam actorstyle awesome
+skinparam packageStyle rectangle
+
+package usuários {
+actor aluno
+actor "gerente de estágio" as ge
+actor "professor orientador" as po
+actor "recrutador (fora do domínio)" as re
+}
+
+
+rectangle "tela fale conosco"{
+ 
+ usuários -down- (email:  dvestagio@poli.br)
+ usuários -down- (telefone:  3184-7574)
+ usuários -down- (retornar)
+ (retornar) -- (tela inicial)
+ 
+
+}
+rectangle "tela inicial"{
+}
+@enduml
