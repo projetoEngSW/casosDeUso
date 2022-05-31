@@ -1,0 +1,39 @@
+@startuml
+left to right direction
+skinparam actorstyle awesome
+skinparam packageStyle rectangle
+
+package usuários {
+actor aluno
+actor "gerente de estágio" as ge
+actor "professor orientador" as po
+actor "recrutador (fora do domínio)" as re
+}
+
+
+rectangle "tela cadastrar-se"{
+ usuários -right-> (insira suas informações)
+ (insira suas informações) -.- (n. matrícula)
+ (insira suas informações) -.- (nome completo)
+ (insira suas informações) -.- (cpf)
+ (insira suas informações) -.- (email)
+ (insira suas informações) -.- (endereço)
+ (insira suas informações) -.- (senha)
+
+
+
+
+ 
+ 
+ usuários -down-> (retornar) 
+ (retornar) -- (tela inicial)
+ (insira suas informações) --- (tela logado)
+
+ 
+
+}
+rectangle "tela logado"{
+}
+rectangle "tela inicial"{
+}
+@enduml
