@@ -27,7 +27,7 @@ rectangle "tela cadastrar-se"{
  
  usuários -down-> (retornar) 
  (retornar) -- (tela inicial)
- (insira suas informações) --- (tela logado)
+ (insira suas informações) - (tela inicial)
 
  
 
