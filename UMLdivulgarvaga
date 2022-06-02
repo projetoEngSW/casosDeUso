@@ -18,10 +18,11 @@ rectangle "tela divulgar vaga"{
  (formulario) --> upe
 
 (retornar) -- (tela inicial)
-rectangle "formulario"{
-  }
+
 }
+
 rectangle "tela inicial"{
 }
+
 
 @enduml
