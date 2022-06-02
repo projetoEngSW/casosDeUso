@@ -1,0 +1,27 @@
+@startuml
+left to right direction
+skinparam actorstyle awesome
+skinparam packageStyle rectangle
+
+package usuários {
+actor aluno
+actor "gerente de estágio" as ge
+actor "professor orientador" as po
+actor "recrutador (fora do domínio)" as re
+}
+
+actor "UPE POLI" as upe
+rectangle "tela divulgar vaga"{
+ 
+ usuários --> (formulario)
+ usuários --> (retornar)
+ (formulario) --> upe
+
+(retornar) -- (tela inicial)
+rectangle "formulario"{
+  }
+}
+rectangle "tela inicial"{
+}
+
+@enduml
