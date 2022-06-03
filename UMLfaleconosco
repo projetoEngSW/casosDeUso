@@ -15,8 +15,8 @@ rectangle "tela fale conosco"{
  
  (email:  dvestagio@poli.br)
  (telefone:  3184-7574)
- usuários -down- (retornar)
- (retornar) -- (tela inicial)
+ usuários -down-> (retornar)
+ (retornar) --> (tela inicial)
  
 
 }
