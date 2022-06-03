@@ -23,4 +23,3 @@ rectangle "tela fale conosco"{
 rectangle "tela inicial"{
 }
 @enduml
-
