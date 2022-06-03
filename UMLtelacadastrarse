@@ -21,19 +21,11 @@ rectangle "tela cadastrar-se"{
  (insira suas informações) -.- (senha)
 
 
-
-
- 
- 
- usuários -down-> (retornar) 
- (retornar) -- (tela inicial)
  (insira suas informações) - (tela inicial)
 
  
+}
 
-}
-rectangle "tela logado"{
-}
 rectangle "tela inicial"{
 }
 @enduml
