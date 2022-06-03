@@ -21,7 +21,8 @@ rectangle "tela cadastrar-se"{
  (insira suas informações) -.- (senha)
 
 
- (insira suas informações) - (tela inicial)
+ (insira suas informações) -> (enviar)
+ (enviar) - (tela inicial)
 
  
 }
