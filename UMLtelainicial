@@ -17,20 +17,20 @@ actor "recrutador (fora do domínio)" as re
 package "tela inicial"{
 
    actor "UPE POLI" as upe
-   usuários -- (fale conosco)
+   usuários --> (fale conosco)
    (divulgar vaga) .> (fale conosco) : include
 
 rectangle login{
 
-  usuários ----- (esqueci a senha)
-  usuários ----- (logar)
+  usuários -----> (esqueci a senha)
+  usuários -----> (logar)
   (logar) .> (inserir login e senha) : include
   (logar com CPF) .> (logar) : extends
 
   }
 rectangle cadastro {
 
-  usuários -- (cadastrar-se)
+  usuários --> (cadastrar-se)
   (cadastrar-se) .> (inserir informações) : include
 
   }
