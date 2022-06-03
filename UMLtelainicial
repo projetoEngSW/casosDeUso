@@ -18,7 +18,7 @@ package "tela inicial"{
 
    actor "UPE POLI" as upe
    usuários -- (fale conosco)
-   (divulgar vaga) .> (fale conosco) : extends
+   (divulgar vaga) .> (fale conosco) : include
 
 rectangle login{
 
