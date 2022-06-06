@@ -11,17 +11,21 @@ actor "professor orientador" as po
 
 
 rectangle "tela logado"{
+ 
+ 
  aluno -up-> (informações do estágio)
  aluno -up-> (solicitar orientador)
  (informações de estágios) .> (gerenciar estágios) : include
  (excluir estagiário/orientador) .> (gerenciar estágios) : include
  ge -up-> (gerenciar estágios)
  
- (visualização de relatórios) .> (relatórios recebidos) : include
+ (relatórios recebidos) .> (avaliar relatório) : include
  (visualização de estagiários) .> (lista de estagiários) : include
  (visualizar orientadores) .> (solicitar orientador) : include
  ge -up-> (relatórios recebidos)
  po -> (enviar relatório)
  po -up-> (lista de estagiários)
+ po -up-> (recomendar vaga ao aluno)
+ (enviar relatório) -> ge
 }
 @enduml
