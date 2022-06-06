@@ -9,7 +9,5 @@ UML: usuários ~ tela 'esqueci a senha' (X)
 UML: usuários ~ tela 'fale conosco' (X)        
 UML: usuários ~ tela 'divulgar vaga' (X)
 
-mudança e png pendente: tela 'logado'
-
 link para checar códigos e gerar imagem dos casos de uso: http://www.plantuml.com/plantuml/uml
 
