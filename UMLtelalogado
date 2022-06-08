@@ -10,6 +10,7 @@ actor "professor orientador" as po
 }
 
 
+ usuários --> (logout)
 rectangle "tela logado"{
  
  
