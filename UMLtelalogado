@@ -24,6 +24,7 @@ rectangle "tela logado"{
  (visualização de estagiários) .> (lista de estagiários) : include
  (visualizar orientadores) .> (solicitar orientador) : include
  ge -up-> (relatórios recebidos)
+ po--up--> (ver relatórios de alunos)
  po ---> (enviar relatório final)
  po -up-> (lista de estagiários)
  po -up-> (recomendar vaga ao aluno)
