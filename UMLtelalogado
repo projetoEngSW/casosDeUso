@@ -15,8 +15,8 @@ rectangle "tela logado"{
  
  aluno -up-> (informações do estágio)
  aluno -up-> (solicitar orientador)
- (informações de estágios) .> (gerenciar sistema) : include
- (excluir estagiário/orientador) .> (gerenciar sistema) : include
+ (alterar estágio) .> (gerenciar sistema) : include
+ (excluir estagiário/estágio) .> (gerenciar sistema) : include
  ge -up-> (gerenciar sistema)
  
  (relatórios recebidos) .> (avaliar relatório) : include
