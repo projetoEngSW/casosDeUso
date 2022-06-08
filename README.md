@@ -11,4 +11,4 @@ UML: usuários ~ tela 'divulgar vaga' (X)
 
 link para checar códigos e gerar imagem dos casos de uso: http://www.plantuml.com/plantuml/uml
 
-~tudo ok~
+OK!
